@@ -1,8 +1,8 @@
 // this class should really be called "Rectangle", with Square as a child
 class Square(_name: String) : Shape(_name) {
 
-    var length : Double = 0.0
-    var height : Double = 0.0
+    private var length : Double = 0.0
+    private var height : Double = 0.0
 
     fun setDimensions(length: Double, height: Double) {
         this.length = length

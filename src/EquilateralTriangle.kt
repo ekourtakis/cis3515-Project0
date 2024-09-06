@@ -1,5 +1,5 @@
 class EquilateralTriangle(_name: String) : Triangle(_name) {
     fun setDimensions(side: Double) {
-        super.setDimensions(side, side, side)
+        super.setDimensions(side, side, side) // all sides same length
     }
 }
