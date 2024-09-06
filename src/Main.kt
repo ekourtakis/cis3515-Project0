@@ -11,7 +11,7 @@ fun main() {
     val eqTriangle : EquilateralTriangle = EquilateralTriangle("eqTriangle")
 
     println("SQUARE")
-    print("enter legnth: ")
+    print("enter length: ")
     val length : Double = readln().toDouble()
     print("enter width: ")
     val width : Double = readln().toDouble()
