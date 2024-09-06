@@ -5,10 +5,10 @@
  */
 
 fun main() {
-    val square : Shape = Square("square")
-    val circle : Shape = Circle("circle")
-    val triangle : Shape = Triangle("triangle")
-    val eqTriangle : Shape = EquilateralTriangle("eqTriangle")
+    val square : Square = Square("square")
+    val circle : Circle = Circle("circle")
+    val triangle : Triangle = Triangle("triangle")
+    val eqTriangle : EquilateralTriangle = EquilateralTriangle("eqTriangle")
 
     println("SQUARE")
     print("enter legnth: ")
