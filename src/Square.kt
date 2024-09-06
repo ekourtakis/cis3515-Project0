@@ -9,7 +9,7 @@ class Square(_name: String) : Shape(_name) {
     }
 
     override fun printDimensions() {
-        println("$name's length and height: $length, $height")
+        println("$name: length=$length, height = $height")
     }
 
     override fun getArea() : Double{
