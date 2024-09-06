@@ -5,10 +5,10 @@
  */
 
 fun main() {
-    val square : Square = Square("square")
-    val circle : Circle = Circle("circle")
-    val triangle : Triangle = Triangle("triangle")
-    val eqTriangle : EquilateralTriangle = EquilateralTriangle("eqTriangle")
+    val square = Square("square")
+    val circle = Circle("circle")
+    val triangle = Triangle("triangle")
+    val eqTriangle = EquilateralTriangle("eqTriangle")
 
     println("SQUARE")
     print("enter length: ")
@@ -44,5 +44,5 @@ fun main() {
 
 fun printInfo(shape: Shape) {
     shape.printDimensions()
-    println("Area: ${shape.getArea()}")
+    println("area: ${shape.getArea()}")
 }
